@@ -1,0 +1,7 @@
+simulation/node_modules/
+server/node_modules/
+simulation/dist/models/
+simulation/dist/bundle.js
+simulation/dist/bundle.js.LICENSE.txt
+simulation/dist/bundle.js.map
+server/dist/

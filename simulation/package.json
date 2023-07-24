@@ -1,0 +1,27 @@
+{
+    "name": "robot-simulation-simulator",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack build --config ./webpack.config.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "^17.0.21",
+        "@typescript/lib-dom": "npm:@types/web@^0.0.54",
+        "ts-loader": "^9.4.4",
+        "ts-node": "^10.7.0",
+        "typescript": "^4.6.2",
+        "webpack": "^5.88.1",
+        "webpack-cli": "^5.1.4"
+    },
+    "dependencies": {
+        "@types/three": "^0.143.0",
+        "browserify": "^17.0.0",
+        "socket.io-client": "^4.7.1",
+        "three": "^0.142.0"
+    }
+}
